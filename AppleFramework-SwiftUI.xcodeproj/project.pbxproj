@@ -11,6 +11,7 @@
 		8648C1612A3D91AA00DC8271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648C1602A3D91AA00DC8271 /* ContentView.swift */; };
 		8648C1632A3D91AC00DC8271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8648C1622A3D91AC00DC8271 /* Assets.xcassets */; };
 		8648C1662A3D91AC00DC8271 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8648C1652A3D91AC00DC8271 /* Preview Assets.xcassets */; };
+		8648C16D2A3D92EA00DC8271 /* FrameworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648C16C2A3D92EA00DC8271 /* FrameworkData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8648C1602A3D91AA00DC8271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8648C1622A3D91AC00DC8271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8648C1652A3D91AC00DC8271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8648C16C2A3D92EA00DC8271 /* FrameworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				8648C15E2A3D91AA00DC8271 /* AppleFramework_SwiftUIApp.swift */,
 				8648C1602A3D91AA00DC8271 /* ContentView.swift */,
 				8648C1622A3D91AC00DC8271 /* Assets.xcassets */,
+				8648C16C2A3D92EA00DC8271 /* FrameworkData.swift */,
 				8648C1642A3D91AC00DC8271 /* Preview Content */,
 			);
 			path = "AppleFramework-SwiftUI";
@@ -139,6 +142,7 @@
 			files = (
 				8648C1612A3D91AA00DC8271 /* ContentView.swift in Sources */,
 				8648C15F2A3D91AA00DC8271 /* AppleFramework_SwiftUIApp.swift in Sources */,
+				8648C16D2A3D92EA00DC8271 /* FrameworkData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
