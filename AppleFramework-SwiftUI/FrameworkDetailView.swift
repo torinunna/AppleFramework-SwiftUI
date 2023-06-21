@@ -9,13 +9,17 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     
-    @Binding var framework: AppleFramework
+    @Binding var framework: AppleFramework?
     
     var body: some View {
         VStack {
-            Image(framework.imageName)
-            Text(framework.name)
-            Text(framework.description)
+            if let framework = framework {
+                Image(framework.imageName)
+                Text(framework.name)
+                Text(framework.description)
+            } else {
+                Text("Nothing Selected")
+            }
             
             Button {
                 print("")
