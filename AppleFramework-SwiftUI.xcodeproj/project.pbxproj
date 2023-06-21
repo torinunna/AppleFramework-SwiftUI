@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86067B0F2A42B094000AD474 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86067B0E2A42B094000AD474 /* FrameworkDetailView.swift */; };
 		8648C15F2A3D91AA00DC8271 /* AppleFramework_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648C15E2A3D91AA00DC8271 /* AppleFramework_SwiftUIApp.swift */; };
 		8648C1612A3D91AA00DC8271 /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648C1602A3D91AA00DC8271 /* FrameworkListView.swift */; };
 		8648C1632A3D91AC00DC8271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8648C1622A3D91AC00DC8271 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86067B0E2A42B094000AD474 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		8648C15B2A3D91AA00DC8271 /* AppleFramework-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleFramework-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8648C15E2A3D91AA00DC8271 /* AppleFramework_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFramework_SwiftUIApp.swift; sourceTree = "<group>"; };
 		8648C1602A3D91AA00DC8271 /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				8648C15E2A3D91AA00DC8271 /* AppleFramework_SwiftUIApp.swift */,
 				8648C1602A3D91AA00DC8271 /* FrameworkListView.swift */,
+				86067B0E2A42B094000AD474 /* FrameworkDetailView.swift */,
 				8648C16E2A3D937000DC8271 /* FrameworkCell.swift */,
 				8648C16C2A3D92EA00DC8271 /* FrameworkData.swift */,
 				8648C1622A3D91AC00DC8271 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8648C16F2A3D937000DC8271 /* FrameworkCell.swift in Sources */,
+				86067B0F2A42B094000AD474 /* FrameworkDetailView.swift in Sources */,
 				8648C1612A3D91AA00DC8271 /* FrameworkListView.swift in Sources */,
 				8648C15F2A3D91AA00DC8271 /* AppleFramework_SwiftUIApp.swift in Sources */,
 				8648C16D2A3D92EA00DC8271 /* FrameworkData.swift in Sources */,
