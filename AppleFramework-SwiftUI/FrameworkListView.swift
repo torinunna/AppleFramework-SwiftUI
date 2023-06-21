@@ -11,6 +11,8 @@ struct FrameworkListView: View {
     
     @State var list: [AppleFramework] = AppleFramework.list
     
+    @State var isPresent: Bool = false
+    
     let layout: [GridItem] = [
         GridItem(.flexible()),
         GridItem(.flexible()),
@@ -28,6 +30,8 @@ struct FrameworkListView: View {
                 .padding([.top, .leading, .trailing], 16.0)
             }
             .navigationTitle("Apple Framework")
+        }
+        .sheet(isPresented: $isPresent) {
         }
     }
 }
