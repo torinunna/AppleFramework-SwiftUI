@@ -10,6 +10,7 @@ import SwiftUI
 struct FrameworkDetailView: View {
     
     @Binding var framework: AppleFramework?
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         VStack {
@@ -22,9 +23,9 @@ struct FrameworkDetailView: View {
             }
             
             Button {
-                print("")
+                dismiss()
             } label: {
-                Text("Button")
+                Text("돌아가기")
             }
         }
     }
