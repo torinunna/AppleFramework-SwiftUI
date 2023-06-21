@@ -9,6 +9,6 @@ import Foundation
 
 final class FrameworkListViewModel: ObservableObject {
     @Published var models: [AppleFramework] = AppleFramework.list
-    @Published var isPresented: Bool = false
+    @Published var isShowingDetail: Bool = false
     @Published var selectedItem: AppleFramework?
 }

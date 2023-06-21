@@ -24,7 +24,7 @@ struct FrameworkListView: View {
                     ForEach($vm.models) { $item in
                         FrameworkCell(framework: $item)
                             .onTapGesture {
-                                vm.isPresented = true
+                                vm.isShowingDetail = true
                                 vm.selectedItem = item
                             }
                     }
@@ -33,7 +33,7 @@ struct FrameworkListView: View {
             }
             .navigationTitle("Apple Framework")
         }
-        .sheet(isPresented: $vm.isPresented) {
+        .sheet(isPresented: $vm.isShowingDetail) {
             FrameworkDetailView(framework: $vm.selectedItem)
         }
     }
