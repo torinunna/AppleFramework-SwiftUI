@@ -9,18 +9,15 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     
-    @Binding var framework: AppleFramework?
     @Environment(\.dismiss) var dismiss
+    @StateObject var viewModel: FrameworkDetailViewModel
     
     var body: some View {
         VStack {
-            if let framework = framework {
-                Image(framework.imageName)
-                Text(framework.name)
-                Text(framework.description)
-            } else {
-                Text("Nothing Selected")
-            }
+            
+            Image(viewModel.framework.imageName)
+            Text(viewModel.framework.name)
+            Text(viewModel.framework.description)
             
             Button {
                 dismiss()
@@ -33,6 +30,7 @@ struct FrameworkDetailView: View {
 
 struct FrameworkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkDetailView(framework: .constant(AppleFramework.list[0]))
+        let vm = FrameworkDetailViewModel(framework: AppleFramework.list[0])
+        FrameworkDetailView(viewModel: vm)
     }
 }
