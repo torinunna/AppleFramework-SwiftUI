@@ -15,6 +15,7 @@
 		8648C1662A3D91AC00DC8271 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8648C1652A3D91AC00DC8271 /* Preview Assets.xcassets */; };
 		8648C16D2A3D92EA00DC8271 /* FrameworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648C16C2A3D92EA00DC8271 /* FrameworkData.swift */; };
 		8648C16F2A3D937000DC8271 /* FrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648C16E2A3D937000DC8271 /* FrameworkCell.swift */; };
+		868A079D2A43F0D40039EF33 /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A079C2A43F0D40039EF33 /* FrameworkDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8648C1652A3D91AC00DC8271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8648C16C2A3D92EA00DC8271 /* FrameworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkData.swift; sourceTree = "<group>"; };
 		8648C16E2A3D937000DC8271 /* FrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCell.swift; sourceTree = "<group>"; };
+		868A079C2A43F0D40039EF33 /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8648C1602A3D91AA00DC8271 /* FrameworkListView.swift */,
 				86067B102A42B4CD000AD474 /* FrameworkListViewModel.swift */,
 				86067B0E2A42B094000AD474 /* FrameworkDetailView.swift */,
+				868A079C2A43F0D40039EF33 /* FrameworkDetailViewModel.swift */,
 				8648C16E2A3D937000DC8271 /* FrameworkCell.swift */,
 				8648C16C2A3D92EA00DC8271 /* FrameworkData.swift */,
 				8648C1622A3D91AC00DC8271 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 			files = (
 				8648C16F2A3D937000DC8271 /* FrameworkCell.swift in Sources */,
 				86067B0F2A42B094000AD474 /* FrameworkDetailView.swift in Sources */,
+				868A079D2A43F0D40039EF33 /* FrameworkDetailViewModel.swift in Sources */,
 				8648C1612A3D91AA00DC8271 /* FrameworkListView.swift in Sources */,
 				8648C15F2A3D91AA00DC8271 /* AppleFramework_SwiftUIApp.swift in Sources */,
 				8648C16D2A3D92EA00DC8271 /* FrameworkData.swift in Sources */,
