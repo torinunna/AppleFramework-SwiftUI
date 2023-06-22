@@ -33,7 +33,7 @@ struct FrameworkListView: View {
             }
             .navigationTitle("Apple Framework")
         }
-        .fullScreenCover(isPresented: $vm.isShowingDetail) {
+        .sheet(isPresented: $vm.isShowingDetail) {
             let vm = FrameworkDetailViewModel(framework: vm.selectedItem!)
             FrameworkDetailView(viewModel: vm)
         }

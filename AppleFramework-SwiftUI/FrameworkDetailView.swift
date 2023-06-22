@@ -9,7 +9,6 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     
-    @Environment(\.dismiss) var dismiss
     @StateObject var viewModel: FrameworkDetailViewModel
     
     var body: some View {
@@ -20,9 +19,9 @@ struct FrameworkDetailView: View {
             Text(viewModel.framework.description)
             
             Button {
-                dismiss()
+                print("safari 띄우기")
             } label: {
-                Text("돌아가기")
+                Text("Learn More")
             }
         }
     }
